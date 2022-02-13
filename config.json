@@ -1,0 +1,7 @@
+{
+    "username": "",
+    "password": "",
+    "telegram_base_url": "https://api.telegram.org/bot",
+    "telegram_bot_token": "",
+    "telegram_target_chatid": ["12345678"]
+}
