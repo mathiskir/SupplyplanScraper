@@ -36,7 +36,7 @@ driver = webdriver.Chrome(
     executable_path="/home/Selenium/chromedriver", options=options
 )
 
-driver.get(f"https://{username}:{password}@vertretungsplan.hls-ol.de")
+driver.get(f"https://{username}:{password}@supplyplan.school.xyz")
 
 driver.implicitly_wait(1)
 
