@@ -32,7 +32,7 @@ calendar_week = day + month + year
 
 options = Options()
 options.add_argument("--no-sandbox")
-options.headless = False
+options.headless = True
 driver = webdriver.Chrome(
     executable_path="/home/Selenium/chromedriver", options=options
 )
