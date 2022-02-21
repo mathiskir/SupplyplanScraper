@@ -17,7 +17,6 @@ telegram_base_url = config["telegram_base_url"]
 telegram_bot_token = config["telegram_bot_token"]
 telegram_target_chatid = config["telegram_target_chatid"]
 
-table_data = {}
 results = {}
 
 today = date.today()
@@ -76,6 +75,7 @@ def get_table_info(day, index):
     else:
         available = False
     replacement_to_show = []
+    table_data = {}
    
     if available:
         count = 0
